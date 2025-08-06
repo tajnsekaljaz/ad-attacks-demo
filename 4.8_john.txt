@@ -1,0 +1,9 @@
+Using default input encoding: UTF-8
+Loaded 2 password hashes with 2 different salts (krb5asrep, Kerberos 5 AS-REP etype 17/18/23 [MD4 HMAC-MD5 RC4 / PBKDF2 HMAC-SHA1 AES 256/256 AVX2 8x])
+Will run 2 OpenMP threads
+Press q or Ctrl-C to abort, almost any other key for status
+eminem           ($krb5asrep$23$marielle.chrissy@DIPLOMA.ORG)     
+444444           ($krb5asrep$23$kacie.kerrin@DIPLOMA.ORG)     
+2g 0:00:00:00 DONE (2025-08-06 16:15) 25.00g/s 12800p/s 19200c/s 19200C/s hockey..bethany
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 

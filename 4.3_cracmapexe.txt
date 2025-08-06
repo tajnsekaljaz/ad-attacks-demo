@@ -1,0 +1,1 @@
+SMB                      192.168.56.117  445    WIN-0P4656N57AE  [*] Windows 10 / Server 2019 Build 17763 x64 (name:WIN-0P4656N57AE) (domain:diploma.org) (signing:True) (SMBv1:False)

@@ -1,0 +1,14 @@
+Impacket v0.13.0.dev0 - Copyright Fortra, LLC and its affiliated companies 
+
+[*] Requesting shares on WIN-0P4656N57AE.diploma.org.....
+[*] Found writable share ADMIN$
+[*] Uploading file PtgXfzhG.exe
+[*] Opening SVCManager on WIN-0P4656N57AE.diploma.org.....
+[*] Creating service sitG on WIN-0P4656N57AE.diploma.org.....
+[*] Starting service sitG.....
+[!] Press help for extra shell commands
+Microsoft Windows [Version 10.0.17763.3650]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32> 
+

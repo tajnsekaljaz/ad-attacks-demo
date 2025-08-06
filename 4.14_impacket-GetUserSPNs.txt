@@ -1,0 +1,13 @@
+Impacket v0.13.0.dev0 - Copyright Fortra, LLC and its affiliated companies 
+
+ServicePrincipalName               Name          MemberOf                                          PasswordLastSet             LastLogon                   Delegation 
+---------------------------------  ------------  ------------------------------------------------  --------------------------  --------------------------  ----------
+exchange_svc/exserver.diploma.org  exchange_svc  CN=IT Helpdesk,CN=Users,DC=diploma,DC=org         2025-07-31 18:04:28.214573  <never>                                
+http_svc/httpserver.diploma.org    http_svc      CN=IT Helpdesk,CN=Users,DC=diploma,DC=org         2025-07-31 18:04:28.026797  2025-08-01 12:51:58.882240             
+mssql_svc/mssqlserver.diploma.org  mssql_svc     CN=Project management,CN=Users,DC=diploma,DC=org  2025-07-31 18:04:27.839212  <never>                                
+
+
+
+Impacket v0.13.0.dev0 - Copyright Fortra, LLC and its affiliated companies 
+
+No entries found!

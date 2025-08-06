@@ -1,0 +1,4 @@
+$krb5asrep$23$kacie.kerrin@DIPLOMA.ORG:444444
+$krb5asrep$23$marielle.chrissy@DIPLOMA.ORG:eminem
+
+2 password hashes cracked, 0 left

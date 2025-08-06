@@ -1,0 +1,11 @@
+Impacket v0.13.0.dev0 - Copyright Fortra, LLC and its affiliated companies 
+
+Name              MemberOf                             PasswordLastSet             LastLogon                   UAC      
+----------------  -----------------------------------  --------------------------  --------------------------  --------
+kacie.kerrin      CN=Sales,CN=Users,DC=diploma,DC=org  2025-07-31 18:04:28.542972  2025-08-06 16:13:27.954425  0x400200 
+marielle.chrissy  CN=Sales,CN=Users,DC=diploma,DC=org  2025-07-31 18:04:28.417669  2025-08-06 16:13:27.970388  0x400200 
+
+
+
+$krb5asrep$23$kacie.kerrin@DIPLOMA.ORG:bed90a90900be41ea3834d4da2acd3f6$db7d18e4ecafc32878b687c43110e4ec2ef5b057e2c91990f54b3d87c9890901f94250d847f4b7d5f7d0905db304bf012bc58b241e4f31dcac4e4957f364d7645fc2d805b0ecd9f636996388a0d8c6ca6c8d475aded87414c7a0d161644a03a8b33042b53aab190038dd5b854db538d366127d8131a9f7fd760ad70f0c60e5ae826308e70dbd8e137f6aa849ec7099516281596776bc5d83aca94ade2d5bbad01403a63f11991e23634c4985e79ee6b569b313f510da139490559ff6ea52446ba9f1535ed6abe05dc82f731b8fab6d76776eba24ed9e1dfc254c796711a3a536786a4337f6d33c1fe78d
+$krb5asrep$23$marielle.chrissy@DIPLOMA.ORG:9a8837c430c3bd053e3f9d8e84ca00d5$ab7343faad417449a6f80575dbadc6cc65573e0d1242f1df2434386b1f2c0156db2da17e5838478ce6e87ca5fb5d84af15a7a8cba1a173dfde9077b2afd4566af26e8b2819ae0bc5c4811da5bb67f5ae9a5fe3b5ed369bb80d6c6baa64bb7fbe62c35bbca6ce5fa05c6a606fa4c275275d5ce317a608cc0e8c5d365fc0b882939d721a4db8240b7471fde44d8c944881e0265616d727976aad151f8fdbe19f3698733ff7e45e15a84c6970c2bd66756c1e7a71cc44229a1a15725bb817357e3112a1ba45c679184220919fbfbe3913fb041d23a83fdc6d3084473d6bab056e678c3b7f3f424d52d20e9d

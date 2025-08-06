@@ -1,0 +1,40 @@
+# Guest, Users, diploma.org
+dn: CN=Guest,CN=Users,DC=diploma,DC=org
+description: Built-in account for guest access to the computer/domain
+sAMAccountName: Guest
+
+# Melva Miquela, Users, diploma.org
+dn: CN=Melva Miquela,CN=Users,DC=diploma,DC=org
+description: New user generated password: {L&hDFl
+sAMAccountName: melva.miquela
+
+# Jerrie Anastasia, Users, diploma.org
+dn: CN=Jerrie Anastasia,CN=Users,DC=diploma,DC=org
+description: New user generated password: g|y>eDl
+sAMAccountName: jerrie.anastasia
+
+# Rita Myrna, Users, diploma.org
+dn: CN=Rita Myrna,CN=Users,DC=diploma,DC=org
+description: Company default password(Reset ASAP)
+sAMAccountName: rita.myrna
+
+# Emelda Bette, Users, diploma.org
+dn: CN=Emelda Bette,CN=Users,DC=diploma,DC=org
+description: Company default password(Reset ASAP)
+sAMAccountName: emelda.bette
+
+# Leonerd Rowe, Users, diploma.org
+dn: CN=Leonerd Rowe,CN=Users,DC=diploma,DC=org
+description: Company default password(Reset ASAP)
+sAMAccountName: leonerd.rowe
+
+# Cicely Biddy, Users, diploma.org
+dn: CN=Cicely Biddy,CN=Users,DC=diploma,DC=org
+description: Company default password(Reset ASAP)
+sAMAccountName: cicely.biddy
+
+# Barrie Eolanda, Users, diploma.org
+dn: CN=Barrie Eolanda,CN=Users,DC=diploma,DC=org
+description: DNS Admin
+sAMAccountName: barrie.eolanda
+

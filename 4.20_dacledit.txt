@@ -1,0 +1,43 @@
+/home/zazo/.local/bin/dacledit.py:101: SyntaxWarning: invalid escape sequence '\V'
+  'S-1-5-83-0': 'NT VIRTUAL MACHINE\Virtual Machines',
+/home/zazo/.local/bin/dacledit.py:110: SyntaxWarning: invalid escape sequence '\P'
+  'S-1-5-32-554': 'BUILTIN\Pre-Windows 2000 Compatible Access',
+/home/zazo/.local/bin/dacledit.py:111: SyntaxWarning: invalid escape sequence '\R'
+  'S-1-5-32-555': 'BUILTIN\Remote Desktop Users',
+/home/zazo/.local/bin/dacledit.py:112: SyntaxWarning: invalid escape sequence '\I'
+  'S-1-5-32-557': 'BUILTIN\Incoming Forest Trust Builders',
+/home/zazo/.local/bin/dacledit.py:114: SyntaxWarning: invalid escape sequence '\P'
+  'S-1-5-32-558': 'BUILTIN\Performance Monitor Users',
+/home/zazo/.local/bin/dacledit.py:115: SyntaxWarning: invalid escape sequence '\P'
+  'S-1-5-32-559': 'BUILTIN\Performance Log Users',
+/home/zazo/.local/bin/dacledit.py:116: SyntaxWarning: invalid escape sequence '\W'
+  'S-1-5-32-560': 'BUILTIN\Windows Authorization Access Group',
+/home/zazo/.local/bin/dacledit.py:117: SyntaxWarning: invalid escape sequence '\T'
+  'S-1-5-32-561': 'BUILTIN\Terminal Server License Servers',
+/home/zazo/.local/bin/dacledit.py:118: SyntaxWarning: invalid escape sequence '\D'
+  'S-1-5-32-562': 'BUILTIN\Distributed COM Users',
+/home/zazo/.local/bin/dacledit.py:119: SyntaxWarning: invalid escape sequence '\C'
+  'S-1-5-32-569': 'BUILTIN\Cryptographic Operators',
+/home/zazo/.local/bin/dacledit.py:120: SyntaxWarning: invalid escape sequence '\E'
+  'S-1-5-32-573': 'BUILTIN\Event Log Readers',
+/home/zazo/.local/bin/dacledit.py:121: SyntaxWarning: invalid escape sequence '\C'
+  'S-1-5-32-574': 'BUILTIN\Certificate Service DCOM Access',
+/home/zazo/.local/bin/dacledit.py:122: SyntaxWarning: invalid escape sequence '\R'
+  'S-1-5-32-575': 'BUILTIN\RDS Remote Access Servers',
+/home/zazo/.local/bin/dacledit.py:123: SyntaxWarning: invalid escape sequence '\R'
+  'S-1-5-32-576': 'BUILTIN\RDS Endpoint Servers',
+/home/zazo/.local/bin/dacledit.py:124: SyntaxWarning: invalid escape sequence '\R'
+  'S-1-5-32-577': 'BUILTIN\RDS Management Servers',
+/home/zazo/.local/bin/dacledit.py:125: SyntaxWarning: invalid escape sequence '\H'
+  'S-1-5-32-578': 'BUILTIN\Hyper-V Administrators',
+/home/zazo/.local/bin/dacledit.py:126: SyntaxWarning: invalid escape sequence '\A'
+  'S-1-5-32-579': 'BUILTIN\Access Control Assistance Operators',
+/home/zazo/.local/bin/dacledit.py:127: SyntaxWarning: invalid escape sequence '\R'
+  'S-1-5-32-580': 'BUILTIN\Remote Management Users',
+/home/zazo/.local/share/pipx/venvs/impacket/lib/python3.13/site-packages/impacket/version.py:12: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
+
+[*] DACL backed up to dacledit-20250806-162708.bak
+[*] DACL modified successfully!
+

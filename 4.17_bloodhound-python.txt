@@ -1,0 +1,123 @@
+INFO: BloodHound.py for BloodHound LEGACY (BloodHound 4.2 and 4.3)
+DEBUG: Authentication: username/password
+DEBUG: Resolved collection methods: rdp, objectprops, dcom, session, trusts, psremote, localadmin, acl, container, group
+DEBUG: Using DNS to retrieve domain information
+DEBUG: Querying domain controller information from DNS
+DEBUG: Using domain hint: diploma.org
+INFO: Found AD domain: diploma.org
+DEBUG: Found primary DC: win-0p4656n57ae.diploma.org
+DEBUG: Found Global Catalog server: win-0p4656n57ae.diploma.org
+DEBUG: Found KDC for enumeration domain: win-0p4656n57ae.diploma.org
+INFO: Getting TGT for user
+DEBUG: Trying to connect to KDC at win-0p4656n57ae.diploma.org:88
+DEBUG: $krb5asrep$18$kacie.kerrin@DIPLOMA.ORG:b'aaf454157387d2ce8684b391a86ef920'$b'326e2afffa3af69d0eac2f7c5de2e08265b7b4749af14e6b3b426f945741ac0024a7faa0929ab6106b28a4806697ca51228be26c31843a6819b8e90b8682fe055b90572360404f68c1eb96dcaacae6773416ec1d1295c41adf40d703b23de496595dc9b95f16ba77d7e266899d46b7e0a7b01f60fdee54220bd44ebcd48031987293dd38f5686aaaab3f72455185d1a2cf0377ba2d47a3e78b9276a29277b8d6046bde1338ea324e68ef5e4871b040a4bbfa58a1172e74fa6889ee76edc6066b7310cd51c3120ee0c13c04edc20311d51a0a1f87f53ebabdb989f326c3253671a482f0f06fe5e674a431f5285622a86ccad7b78df9a8707584836cebdea9'
+DEBUG: Using LDAP server: win-0p4656n57ae.diploma.org
+DEBUG: Using base DN: DC=diploma,DC=org
+DEBUG: Using kerberos KDC: win-0p4656n57ae.diploma.org
+DEBUG: Using kerberos realm: DIPLOMA.ORG
+INFO: Connecting to LDAP server: win-0p4656n57ae.diploma.org
+DEBUG: Using protocol ldap
+DEBUG: Authenticating to LDAP server with Kerberos
+DEBUG: Trying to connect to KDC at win-0p4656n57ae.diploma.org:88
+DEBUG: No LAPS attributes found in schema
+DEBUG: Found KeyCredentialLink attributes in schema
+INFO: Found 1 domains
+INFO: Found 1 domains in the forest
+INFO: Found 1 computers
+DEBUG: Writing users to file: 20250806162547_users.json
+INFO: Connecting to LDAP server: win-0p4656n57ae.diploma.org
+DEBUG: Using protocol ldap
+DEBUG: Authenticating to LDAP server with Kerberos
+DEBUG: Trying to connect to KDC at win-0p4656n57ae.diploma.org:88
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-512
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-519
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1130
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-526
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-527
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1156
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1155
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1161
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1135
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1107
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1153
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1113
+INFO: Found 60 users
+DEBUG: Finished writing users
+DEBUG: Writing groups to file: 20250806162547_groups.json
+DEBUG: Querying resolver LDAP for DN CN=Group Policy Creator Owners,CN=Users,DC=diploma,DC=org
+DEBUG: Querying resolver LDAP for DN CN=Domain Admins,CN=Users,DC=diploma,DC=org
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1121
+DEBUG: Querying resolver LDAP for DN CN=Cert Publishers,CN=Users,DC=diploma,DC=org
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1125
+DEBUG: Querying resolver LDAP for DN CN=Enterprise Admins,CN=Users,DC=diploma,DC=org
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1159
+DEBUG: Querying resolver LDAP for DN CN=Schema Admins,CN=Users,DC=diploma,DC=org
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1120
+DEBUG: Querying resolver LDAP for DN CN=Domain Controllers,CN=Users,DC=diploma,DC=org
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1123
+DEBUG: Querying resolver LDAP for DN CN=S-1-5-9,CN=ForeignSecurityPrincipals,DC=diploma,DC=org
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1131
+DEBUG: Querying resolver LDAP for DN CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=diploma,DC=org
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1127
+DEBUG: Querying resolver LDAP for DN CN=S-1-5-17,CN=ForeignSecurityPrincipals,DC=diploma,DC=org
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1150
+DEBUG: Querying resolver LDAP for DN CN=S-1-5-4,CN=ForeignSecurityPrincipals,DC=diploma,DC=org
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1158
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1124
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1166
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1157
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-1134
+INFO: Found 61 groups
+DEBUG: Finished writing groups
+DEBUG: Writing GPOs to file: 20250806162547_gpos.json
+INFO: Found 2 gpos
+DEBUG: Finished writing GPO
+DEBUG: Writing OU to file: 20250806162547_ous.json
+INFO: Found 1 ous
+DEBUG: Finished writing OU
+DEBUG: Writing containers to file: 20250806162547_containers.json
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-553
+INFO: Found 19 containers
+DEBUG: Finished writing containers
+DEBUG: Opening file for writing: 20250806162547_domains.json
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-498
+DEBUG: Querying resolver LDAP for SID S-1-5-21-1574560644-4188645492-2193718008-516
+INFO: Found 0 trusts
+DEBUG: Finished writing domain info
+INFO: Starting computer enumeration with 10 workers
+DEBUG: Start working
+DEBUG: Start working
+DEBUG: Start working
+DEBUG: Start working
+DEBUG: Start working
+DEBUG: Start working
+DEBUG: Start working
+DEBUG: Start working
+DEBUG: Start working
+DEBUG: Start working
+INFO: Querying computer: WIN-0P4656N57AE.diploma.org
+DEBUG: Querying computer: WIN-0P4656N57AE.diploma.org
+DEBUG: Resolved: 192.168.56.117
+DEBUG: Trying connecting to computer: WIN-0P4656N57AE.diploma.org
+DEBUG: DCE/RPC binding: ncacn_np:192.168.56.117[\PIPE\srvsvc]
+DEBUG: Trying to connect to KDC at win-0p4656n57ae.diploma.org:88
+DEBUG: Access denied while enumerating Sessions on WIN-0P4656N57AE.diploma.org, likely a patched OS
+DEBUG: DCE/RPC binding: ncacn_np:192.168.56.117[\PIPE\samr]
+DEBUG: Opening domain handle
+DEBUG: Found 544 SID: S-1-5-21-1574560644-4188645492-2193718008-500
+DEBUG: Found 544 SID: S-1-5-21-1574560644-4188645492-2193718008-519
+DEBUG: Found 544 SID: S-1-5-21-1574560644-4188645492-2193718008-512
+DEBUG: DCE/RPC binding: ncacn_np:192.168.56.117[\PIPE\lsarpc]
+DEBUG: Resolved SID to name: ADMINISTRATOR@DIPLOMA.ORG
+DEBUG: Resolved SID to name: ENTERPRISE ADMINS@DIPLOMA.ORG
+DEBUG: Resolved SID to name: DOMAIN ADMINS@DIPLOMA.ORG
+DEBUG: DCE/RPC binding: ncacn_np:192.168.56.117[\PIPE\samr]
+DEBUG: Opening domain handle
+DEBUG: DCE/RPC binding: ncacn_np:192.168.56.117[\PIPE\samr]
+DEBUG: Opening domain handle
+DEBUG: DCE/RPC binding: ncacn_np:192.168.56.117[\PIPE\samr]
+DEBUG: Opening domain handle
+DEBUG: Write worker obtained a None value, exiting
+DEBUG: Write worker is done, closing files
+INFO: Done in 00M 02S
+

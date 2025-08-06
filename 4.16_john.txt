@@ -1,0 +1,5 @@
+Loaded 3 password hashes with 3 different salts (krb5tgs, Kerberos 5 TGS etype 23 [MD4 HMAC-MD5 RC4])
+Remaining 2 password hashes with 2 different salts
+?:sniper
+
+1 password hash cracked, 2 left

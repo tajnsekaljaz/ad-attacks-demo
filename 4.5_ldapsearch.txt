@@ -1,0 +1,3038 @@
+# extended LDIF
+#
+# LDAPv3
+# base <DC=diploma,DC=org> with scope subtree
+# filter: (objectclass=*)
+# requesting: ALL
+#
+
+# diploma.org
+dn: DC=diploma,DC=org
+objectClass: top
+objectClass: domain
+objectClass: domainDNS
+distinguishedName: DC=diploma,DC=org
+instanceType: 5
+whenCreated: 20250731214657.0Z
+whenChanged: 20250807045945.0Z
+subRefs: DC=ForestDnsZones,DC=diploma,DC=org
+subRefs: DC=DomainDnsZones,DC=diploma,DC=org
+subRefs: CN=Configuration,DC=diploma,DC=org
+uSNCreated: 4099
+dSASignature:: AQAAACgAAAAAAAAAAAAAAAAAAAAAAAAA7hAgouKah0qeiNT7DMM9yA==
+uSNChanged: 65544
+name: diploma
+objectGUID:: AMuChAL+dU++FhYdGH5kSg==
+creationTime: 133990163851253175
+forceLogoff: -9223372036854775808
+lockoutDuration: -600000000
+lockOutObservationWindow: -600000000
+lockoutThreshold: 0
+maxPwdAge: -36288000000000
+minPwdAge: -864000000000
+minPwdLength: 4
+modifiedCountAtLastProm: 0
+nextRid: 1000
+pwdProperties: 0
+pwdHistoryLength: 24
+objectSid:: AQQAAAAAAAUVAAAAhOPZXXSoqfn4esGC
+serverState: 1
+uASCompat: 1
+modifiedCount: 1
+auditingPolicy:: AAE=
+nTMixedDomain: 0
+rIDManagerReference: CN=RID Manager$,CN=System,DC=diploma,DC=org
+fSMORoleOwner: CN=NTDS Settings,CN=WIN-0P4656N57AE,CN=Servers,CN=Default-First
+ -Site-Name,CN=Sites,CN=Configuration,DC=diploma,DC=org
+systemFlags: -1946157056
+wellKnownObjects: B:32:6227F0AF1FC2410D8E3BB10615BB5B0F:CN=NTDS Quotas,DC=dipl
+ oma,DC=org
+wellKnownObjects: B:32:F4BE92A4C777485E878E9421D53087DB:CN=Microsoft,CN=Progra
+ m Data,DC=diploma,DC=org
+wellKnownObjects: B:32:09460C08AE1E4A4EA0F64AEE7DAA1E5A:CN=Program Data,DC=dip
+ loma,DC=org
+wellKnownObjects: B:32:22B70C67D56E4EFB91E9300FCA3DC1AA:CN=ForeignSecurityPrin
+ cipals,DC=diploma,DC=org
+wellKnownObjects: B:32:18E2EA80684F11D2B9AA00C04F79F805:CN=Deleted Objects,DC=
+ diploma,DC=org
+wellKnownObjects: B:32:2FBAC1870ADE11D297C400C04FD8D5CD:CN=Infrastructure,DC=d
+ iploma,DC=org
+wellKnownObjects: B:32:AB8153B7768811D1ADED00C04FD8D5CD:CN=LostAndFound,DC=dip
+ loma,DC=org
+wellKnownObjects: B:32:AB1D30F3768811D1ADED00C04FD8D5CD:CN=System,DC=diploma,D
+ C=org
+wellKnownObjects: B:32:A361B2FFFFD211D1AA4B00C04FD7D83A:OU=Domain Controllers,
+ DC=diploma,DC=org
+wellKnownObjects: B:32:AA312825768811D1ADED00C04FD8D5CD:CN=Computers,DC=diplom
+ a,DC=org
+wellKnownObjects: B:32:A9D1CA15768811D1ADED00C04FD8D5CD:CN=Users,DC=diploma,DC
+ =org
+objectCategory: CN=Domain-DNS,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+gPLink: [LDAP://CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=Syste
+ m,DC=diploma,DC=org;0]
+dSCorePropagationData: 16010101000000.0Z
+otherWellKnownObjects: B:32:683A24E2E8164BD3AF86AC3C2CF3F981:CN=Keys,DC=diplom
+ a,DC=org
+otherWellKnownObjects: B:32:1EB93889E40C45DF9F0C64D23BBB6237:CN=Managed Servic
+ e Accounts,DC=diploma,DC=org
+masteredBy: CN=NTDS Settings,CN=WIN-0P4656N57AE,CN=Servers,CN=Default-First-Si
+ te-Name,CN=Sites,CN=Configuration,DC=diploma,DC=org
+ms-DS-MachineAccountQuota: 10
+msDS-Behavior-Version: 7
+msDS-PerUserTrustQuota: 1
+msDS-AllUsersTrustQuota: 1000
+msDS-PerUserTrustTombstonesQuota: 10
+msDs-masteredBy: CN=NTDS Settings,CN=WIN-0P4656N57AE,CN=Servers,CN=Default-Fir
+ st-Site-Name,CN=Sites,CN=Configuration,DC=diploma,DC=org
+msDS-IsDomainFor: CN=NTDS Settings,CN=WIN-0P4656N57AE,CN=Servers,CN=Default-Fi
+ rst-Site-Name,CN=Sites,CN=Configuration,DC=diploma,DC=org
+msDS-NcType: 0
+msDS-ExpirePasswordsOnSmartCardOnlyAccounts: TRUE
+dc: diploma
+
+# Administrator, Users, diploma.org
+dn: CN=Administrator,CN=Users,DC=diploma,DC=org
+
+# Guest, Users, diploma.org
+dn: CN=Guest,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Guest
+description: Built-in account for guest access to the computer/domain
+distinguishedName: CN=Guest,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731214712.0Z
+whenChanged: 20250731221419.0Z
+uSNCreated: 8197
+memberOf: CN=Guests,CN=Builtin,DC=diploma,DC=org
+uSNChanged: 20496
+name: Guest
+objectGUID:: lXwPxuAv90OXeJL2wYp6LQ==
+userAccountControl: 66080
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985257848328683
+lastLogoff: 0
+lastLogon: 133985258070089962
+pwdLastSet: 0
+primaryGroupID: 514
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGC9QEAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: Guest
+sAMAccountType: 805306368
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+lastLogonTimestamp: 133984736599432476
+
+# krbtgt, Users, diploma.org
+dn: CN=krbtgt,CN=Users,DC=diploma,DC=org
+
+# Domain Computers, Users, diploma.org
+dn: CN=Domain Computers,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Domain Computers
+description: All workstations and servers joined to the domain
+distinguishedName: CN=Domain Computers,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215307.0Z
+whenChanged: 20250731215307.0Z
+uSNCreated: 12330
+uSNChanged: 12332
+name: Domain Computers
+objectGUID:: cKoX0dQm90SdqDjfEvEKow==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCAwIAAA==
+sAMAccountName: Domain Computers
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# Domain Controllers, Users, diploma.org
+dn: CN=Domain Controllers,CN=Users,DC=diploma,DC=org
+
+# Schema Admins, Users, diploma.org
+dn: CN=Schema Admins,CN=Users,DC=diploma,DC=org
+
+# Enterprise Admins, Users, diploma.org
+dn: CN=Enterprise Admins,CN=Users,DC=diploma,DC=org
+
+# Cert Publishers, Users, diploma.org
+dn: CN=Cert Publishers,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Cert Publishers
+description: Members of this group are permitted to publish certificates to th
+ e directory
+distinguishedName: CN=Cert Publishers,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215307.0Z
+whenChanged: 20250731215307.0Z
+uSNCreated: 12342
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=diploma,DC=org
+uSNChanged: 12344
+name: Cert Publishers
+objectGUID:: PLsX//X+j0qFEvYB45nr4w==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCBQIAAA==
+sAMAccountName: Cert Publishers
+sAMAccountType: 536870912
+groupType: -2147483644
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# Domain Admins, Users, diploma.org
+dn: CN=Domain Admins,CN=Users,DC=diploma,DC=org
+
+# Domain Users, Users, diploma.org
+dn: CN=Domain Users,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Domain Users
+description: All domain users
+distinguishedName: CN=Domain Users,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215307.0Z
+whenChanged: 20250731215307.0Z
+uSNCreated: 12348
+memberOf: CN=Users,CN=Builtin,DC=diploma,DC=org
+uSNChanged: 12350
+name: Domain Users
+objectGUID:: qCPi7Y0IAEe3rWfkSFYK9g==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCAQIAAA==
+sAMAccountName: Domain Users
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# Domain Guests, Users, diploma.org
+dn: CN=Domain Guests,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Domain Guests
+description: All domain guests
+distinguishedName: CN=Domain Guests,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215307.0Z
+whenChanged: 20250731215307.0Z
+uSNCreated: 12351
+memberOf: CN=Guests,CN=Builtin,DC=diploma,DC=org
+uSNChanged: 12353
+name: Domain Guests
+objectGUID:: 8mFmMOXBgUSsewlf9JD/aw==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCAgIAAA==
+sAMAccountName: Domain Guests
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# Group Policy Creator Owners, Users, diploma.org
+dn: CN=Group Policy Creator Owners,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Group Policy Creator Owners
+description: Members in this group can modify group policy for the domain
+member: CN=Administrator,CN=Users,DC=diploma,DC=org
+distinguishedName: CN=Group Policy Creator Owners,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215307.0Z
+whenChanged: 20250731215307.0Z
+uSNCreated: 12354
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=diploma,DC=org
+uSNChanged: 12391
+name: Group Policy Creator Owners
+objectGUID:: aZPlnsmwVEWSwSuTnIoCfg==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCCAIAAA==
+sAMAccountName: Group Policy Creator Owners
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# RAS and IAS Servers, Users, diploma.org
+dn: CN=RAS and IAS Servers,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: RAS and IAS Servers
+description: Servers in this group can access remote access properties of user
+ s
+distinguishedName: CN=RAS and IAS Servers,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215307.0Z
+whenChanged: 20250731215307.0Z
+uSNCreated: 12357
+uSNChanged: 12359
+name: RAS and IAS Servers
+objectGUID:: 1jgxlKuoI0mG54NmRz5EGw==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCKQIAAA==
+sAMAccountName: RAS and IAS Servers
+sAMAccountType: 536870912
+groupType: -2147483644
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# Allowed RODC Password Replication Group, Users, diploma.org
+dn: CN=Allowed RODC Password Replication Group,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Allowed RODC Password Replication Group
+description: Members in this group can have their passwords replicated to all 
+ read-only domain controllers in the domain
+distinguishedName: CN=Allowed RODC Password Replication Group,CN=Users,DC=dipl
+ oma,DC=org
+instanceType: 4
+whenCreated: 20250731215307.0Z
+whenChanged: 20250731215307.0Z
+uSNCreated: 12402
+uSNChanged: 12404
+name: Allowed RODC Password Replication Group
+objectGUID:: rJB6IRLdxkyj2lbgvzxZwQ==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCOwIAAA==
+sAMAccountName: Allowed RODC Password Replication Group
+sAMAccountType: 536870912
+groupType: -2147483644
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# Denied RODC Password Replication Group, Users, diploma.org
+dn: CN=Denied RODC Password Replication Group,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Denied RODC Password Replication Group
+description: Members in this group cannot have their passwords replicated to a
+ ny read-only domain controllers in the domain
+member: CN=Read-only Domain Controllers,CN=Users,DC=diploma,DC=org
+member: CN=Group Policy Creator Owners,CN=Users,DC=diploma,DC=org
+member: CN=Domain Admins,CN=Users,DC=diploma,DC=org
+member: CN=Cert Publishers,CN=Users,DC=diploma,DC=org
+member: CN=Enterprise Admins,CN=Users,DC=diploma,DC=org
+member: CN=Schema Admins,CN=Users,DC=diploma,DC=org
+member: CN=Domain Controllers,CN=Users,DC=diploma,DC=org
+member: CN=krbtgt,CN=Users,DC=diploma,DC=org
+distinguishedName: CN=Denied RODC Password Replication Group,CN=Users,DC=diplo
+ ma,DC=org
+instanceType: 4
+whenCreated: 20250731215307.0Z
+whenChanged: 20250731215307.0Z
+uSNCreated: 12405
+uSNChanged: 12433
+name: Denied RODC Password Replication Group
+objectGUID:: EdgDsLtKsE+HruKzoOyTQw==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCPAIAAA==
+sAMAccountName: Denied RODC Password Replication Group
+sAMAccountType: 536870912
+groupType: -2147483644
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# Read-only Domain Controllers, Users, diploma.org
+dn: CN=Read-only Domain Controllers,CN=Users,DC=diploma,DC=org
+
+# Enterprise Read-only Domain Controllers, Users, diploma.org
+dn: CN=Enterprise Read-only Domain Controllers,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Enterprise Read-only Domain Controllers
+description: Members of this group are Read-Only Domain Controllers in the ent
+ erprise
+distinguishedName: CN=Enterprise Read-only Domain Controllers,CN=Users,DC=dipl
+ oma,DC=org
+instanceType: 4
+whenCreated: 20250731215307.0Z
+whenChanged: 20250731215307.0Z
+uSNCreated: 12429
+uSNChanged: 12431
+name: Enterprise Read-only Domain Controllers
+objectGUID:: S3wTpzGGEE6E8Rzczt+3DA==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGC8gEAAA==
+sAMAccountName: Enterprise Read-only Domain Controllers
+sAMAccountType: 268435456
+groupType: -2147483640
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# Cloneable Domain Controllers, Users, diploma.org
+dn: CN=Cloneable Domain Controllers,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Cloneable Domain Controllers
+description: Members of this group that are domain controllers may be cloned.
+distinguishedName: CN=Cloneable Domain Controllers,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215307.0Z
+whenChanged: 20250731215307.0Z
+uSNCreated: 12440
+uSNChanged: 12442
+name: Cloneable Domain Controllers
+objectGUID:: oa2U1DvvtEay/OidxTxSjA==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCCgIAAA==
+sAMAccountName: Cloneable Domain Controllers
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# Protected Users, Users, diploma.org
+dn: CN=Protected Users,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Protected Users
+description: Members of this group are afforded additional protections against
+  authentication security threats. See http://go.microsoft.com/fwlink/?LinkId=
+ 298939 for more information.
+distinguishedName: CN=Protected Users,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215307.0Z
+whenChanged: 20250731215307.0Z
+uSNCreated: 12445
+uSNChanged: 12447
+name: Protected Users
+objectGUID:: Rb11A6sUVUmQ2XhHGxsp+w==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCDQIAAA==
+sAMAccountName: Protected Users
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731215308.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# Key Admins, Users, diploma.org
+dn: CN=Key Admins,CN=Users,DC=diploma,DC=org
+
+# Enterprise Key Admins, Users, diploma.org
+dn: CN=Enterprise Key Admins,CN=Users,DC=diploma,DC=org
+
+# DnsAdmins, Users, diploma.org
+dn: CN=DnsAdmins,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: DnsAdmins
+description: DNS Administrators Group
+member: CN=Barrie Eolanda,CN=Users,DC=diploma,DC=org
+distinguishedName: CN=DnsAdmins,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731220428.0Z
+uSNCreated: 12486
+uSNChanged: 13293
+name: DnsAdmins
+objectGUID:: Vq14JvKy7E+QdtaBRXZvIw==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCTQQAAA==
+sAMAccountName: DnsAdmins
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# DnsUpdateProxy, Users, diploma.org
+dn: CN=DnsUpdateProxy,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: DnsUpdateProxy
+description: DNS clients who are permitted to perform dynamic updates on behal
+ f of some other clients (such as DHCP servers).
+distinguishedName: CN=DnsUpdateProxy,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12491
+uSNChanged: 12491
+name: DnsUpdateProxy
+objectGUID:: 5wm9dJOnPkO8gnrx6K9S1Q==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCTgQAAA==
+sAMAccountName: DnsUpdateProxy
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# @, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=@,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diploma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=@,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diploma
+ ,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12503
+uSNChanged: 12503
+showInAdvancedViewOnly: TRUE
+name: @
+objectGUID:: tYoMUszDg0m4e8n/aiZB/Q==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBZQxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBYwxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBYQxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBZAxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBbAxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBawxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBZgxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBYgxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBaAxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBbQxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBaQxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBZwxyb290LXNlcnZlcnMDbmV0AA==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dc: @
+
+# g.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=g.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=g.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12504
+uSNChanged: 12505
+showInAdvancedViewOnly: TRUE
+name: g.root-servers.net
+objectGUID:: AIIACtD6+kCbygGqQKdRVg==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAIAEFAAASAAAAAAAAAAANDQ==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dNSTombstoned: FALSE
+dc: g.root-servers.net
+
+# i.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=i.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=i.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12506
+uSNChanged: 12507
+showInAdvancedViewOnly: TRUE
+name: i.root-servers.net
+objectGUID:: BZcbJhw6yUmbcVQpXNMkDA==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAIAEH/gAAAAAAAAAAAAAAUw==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dNSTombstoned: FALSE
+dc: i.root-servers.net
+
+# m.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=m.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=m.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12508
+uSNChanged: 12509
+showInAdvancedViewOnly: TRUE
+name: m.root-servers.net
+objectGUID:: X3JV9RZ8M0yRG5W1AQBGyQ==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAIAENwwAAAAAAAAAAAAAANQ==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dNSTombstoned: FALSE
+dc: m.root-servers.net
+
+# h.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=h.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=h.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12510
+uSNChanged: 12511
+showInAdvancedViewOnly: TRUE
+name: h.root-servers.net
+objectGUID:: c5Rh/D5vVkqDc9QOE9nVoQ==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAIAEFAAABAAAAAAAAAAAAUw==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dNSTombstoned: FALSE
+dc: h.root-servers.net
+
+# b.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=b.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=b.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12512
+uSNChanged: 12513
+showInAdvancedViewOnly: TRUE
+name: b.root-servers.net
+objectGUID:: PRZlUegWA0yKf/X+7AhX1g==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAKAEBuAAQAAAAAAAAAAAACw==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dNSTombstoned: FALSE
+dc: b.root-servers.net
+
+# f.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=f.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=f.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12514
+uSNChanged: 12515
+showInAdvancedViewOnly: TRUE
+name: f.root-servers.net
+objectGUID:: 75WmzHMDsU+d2P/IV8htBQ==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAIAEFAAAvAAAAAAAAAAAADw==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dNSTombstoned: FALSE
+dc: f.root-servers.net
+
+# k.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=k.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=k.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12516
+uSNChanged: 12517
+showInAdvancedViewOnly: TRUE
+name: k.root-servers.net
+objectGUID:: peIKA8V47UOivOJ99BMVjg==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAIAEH/QAAAAAAAAAAAAAAAQ==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dNSTombstoned: FALSE
+dc: k.root-servers.net
+
+# l.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=l.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=l.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12518
+uSNChanged: 12519
+showInAdvancedViewOnly: TRUE
+name: l.root-servers.net
+objectGUID:: rLskPChDQEGKpekJK+uQDg==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAIAEFAACfAAAAAAAAAAAAQg==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dNSTombstoned: FALSE
+dc: l.root-servers.net
+
+# d.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=d.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=d.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12520
+uSNChanged: 12521
+showInAdvancedViewOnly: TRUE
+name: d.root-servers.net
+objectGUID:: n0930D6Id0qhhk91JgdE3A==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAIAEFAAAtAAAAAAAAAAAADQ==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dNSTombstoned: FALSE
+dc: d.root-servers.net
+
+# a.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=a.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=a.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12522
+uSNChanged: 12522
+showInAdvancedViewOnly: TRUE
+name: a.root-servers.net
+objectGUID:: OvDfVoS3q0KUeG99SmiA0Q==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAIAEFA7o+AAAAAAAAAAIAMA==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dc: a.root-servers.net
+
+# c.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=c.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=c.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12523
+uSNChanged: 12523
+showInAdvancedViewOnly: TRUE
+name: c.root-servers.net
+objectGUID:: dKXxLbKJekew1iTKxFWLIA==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAIAEFAAACAAAAAAAAAAAADA==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dc: c.root-servers.net
+
+# e.root-servers.net, RootDNSServers, MicrosoftDNS, System, diploma.org
+dn: DC=e.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=diplo
+ ma,DC=org
+objectClass: top
+objectClass: dnsNode
+distinguishedName: DC=e.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731215345.0Z
+whenChanged: 20250731215345.0Z
+uSNCreated: 12524
+uSNChanged: 12524
+showInAdvancedViewOnly: TRUE
+name: e.root-servers.net
+objectGUID:: l6Nq6ik+nk6omYoaWII4AA==
+dnsRecord:: EAAcAAUIAAAAAAAAAAAAAAAAAAAAAAAAIAEFAACoAAAAAAAAAAAADg==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 20250731215345.0Z
+dSCorePropagationData: 16010101000000.0Z
+dc: e.root-servers.net
+
+# Kacie Kerrin, Users, diploma.org
+dn: CN=Kacie Kerrin,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Kacie Kerrin
+sn: Kerrin
+givenName: Kacie
+distinguishedName: CN=Kacie Kerrin,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220413.0Z
+whenChanged: 20250731222740.0Z
+uSNCreated: 12765
+memberOf: CN=Sales,CN=Users,DC=diploma,DC=org
+uSNChanged: 20522
+name: Kacie Kerrin
+objectGUID:: z/lHQOkCFE2d+yMedmhxBQ==
+userAccountControl: 4194816
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985257869264313
+lastLogoff: 0
+lastLogon: 133985258650834844
+pwdLastSet: 133984730685429721
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCTwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 6
+sAMAccountName: kacie.kerrin
+sAMAccountType: 805306368
+userPrincipalName: Kacie.Kerrin@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+lastLogonTimestamp: 133984744602871568
+
+# Aggi Sherilyn, Users, diploma.org
+dn: CN=Aggi Sherilyn,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Aggi Sherilyn
+sn: Sherilyn
+givenName: Aggi
+distinguishedName: CN=Aggi Sherilyn,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220414.0Z
+whenChanged: 20250731220414.0Z
+uSNCreated: 12771
+memberOf: CN=Accounting,CN=Users,DC=diploma,DC=org
+uSNChanged: 12775
+name: Aggi Sherilyn
+objectGUID:: 1fBI/WtcT0mdRz9xRmOqyA==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985257885824591
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730546987060
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCUAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: aggi.sherilyn
+sAMAccountType: 805306368
+userPrincipalName: Aggi.Sherilyn@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Ardine Elisa, Users, diploma.org
+dn: CN=Ardine Elisa,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Ardine Elisa
+sn: Elisa
+givenName: Ardine
+distinguishedName: CN=Ardine Elisa,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220414.0Z
+whenChanged: 20250731220414.0Z
+uSNCreated: 12777
+memberOf: CN=Marketing,CN=Users,DC=diploma,DC=org
+uSNChanged: 12781
+name: Ardine Elisa
+objectGUID:: PW3OG4SQtk+R+mh9JKsnGQ==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985257901139739
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730548395882
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCUQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: ardine.elisa
+sAMAccountType: 805306368
+userPrincipalName: Ardine.Elisa@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Lorne Klarika, Users, diploma.org
+dn: CN=Lorne Klarika,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Lorne Klarika
+sn: Klarika
+givenName: Lorne
+distinguishedName: CN=Lorne Klarika,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220414.0Z
+whenChanged: 20250731220415.0Z
+uSNCreated: 12783
+memberOf: CN=Office Admin,CN=Users,DC=diploma,DC=org
+uSNChanged: 12787
+name: Lorne Klarika
+objectGUID:: q43QIf+zA0yPYU8zd3/0rg==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985257916920438
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730549804816
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCUgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: lorne.klarika
+sAMAccountType: 805306368
+userPrincipalName: Lorne.Klarika@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Florencia Lee, Users, diploma.org
+dn: CN=Florencia Lee,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Florencia Lee
+sn: Lee
+givenName: Florencia
+distinguishedName: CN=Florencia Lee,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220415.0Z
+whenChanged: 20250801131223.0Z
+uSNCreated: 12789
+memberOf: CN=Senior management,CN=Users,DC=diploma,DC=org
+uSNChanged: 60851
+name: Florencia Lee
+objectGUID:: Q6IbNmVsckua/UxQb3Hr0w==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985257932546010
+lastLogoff: 0
+lastLogon: 133985284805672547
+pwdLastSet: 133985275161606970
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCUwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 1
+sAMAccountName: florencia.lee
+sAMAccountType: 805306368
+userPrincipalName: Florencia.Lee@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 16010101000001.0Z
+lastLogonTimestamp: 133985275431147729
+
+# Lyndel Courtney, Users, diploma.org
+dn: CN=Lyndel Courtney,CN=Users,DC=diploma,DC=org
+
+# Jolie Kiersten, Users, diploma.org
+dn: CN=Jolie Kiersten,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Jolie Kiersten
+sn: Kiersten
+givenName: Jolie
+distinguishedName: CN=Jolie Kiersten,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220415.0Z
+whenChanged: 20250731220415.0Z
+uSNCreated: 12801
+memberOf: CN=IT Helpdesk,CN=Users,DC=diploma,DC=org
+uSNChanged: 12805
+name: Jolie Kiersten
+objectGUID:: lbQO5EgLm0uckcAMSiQOvg==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985257948326805
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730554330856
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCVQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: jolie.kiersten
+sAMAccountType: 805306368
+userPrincipalName: Jolie.Kiersten@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Melva Miquela, Users, diploma.org
+dn: CN=Melva Miquela,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Melva Miquela
+sn: Miquela
+description: New user generated password: {L&hDFl
+givenName: Melva
+distinguishedName: CN=Melva Miquela,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220415.0Z
+whenChanged: 20250731220429.0Z
+uSNCreated: 12807
+memberOf: CN=Marketing,CN=Users,DC=diploma,DC=org
+uSNChanged: 13298
+name: Melva Miquela
+objectGUID:: Edm+kuFcLEKQFdj8v/beXQ==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985257975519014
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 0
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCVgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: melva.miquela
+sAMAccountType: 805306368
+userPrincipalName: Melva.Miquela@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Alika Lauraine, Users, diploma.org
+dn: CN=Alika Lauraine,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Alika Lauraine
+sn: Lauraine
+givenName: Alika
+distinguishedName: CN=Alika Lauraine,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220415.0Z
+whenChanged: 20250731220415.0Z
+uSNCreated: 12813
+memberOf: CN=Accounting,CN=Users,DC=diploma,DC=org
+uSNChanged: 12817
+name: Alika Lauraine
+objectGUID:: TMVZJ5x3uU27J5S0zcEA1w==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985257990844059
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730557465807
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCVwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: alika.lauraine
+sAMAccountType: 805306368
+userPrincipalName: Alika.Lauraine@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Guglielma Raquela, Users, diploma.org
+dn: CN=Guglielma Raquela,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Guglielma Raquela
+sn: Raquela
+givenName: Guglielma
+distinguishedName: CN=Guglielma Raquela,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220415.0Z
+whenChanged: 20250801132507.0Z
+uSNCreated: 12819
+memberOf: CN=Accounting,CN=Users,DC=diploma,DC=org
+uSNChanged: 60863
+name: Guglielma Raquela
+objectGUID:: Xy6ZnWfhVE6JPqJMdXGOIA==
+userAccountControl: 512
+badPwdCount: 3
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985278740053120
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133985282977542861
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCWAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: guglielma.raquela
+sAMAccountType: 805306368
+userPrincipalName: Guglielma.Raquela@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250801131553.0Z
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220432.0Z
+dSCorePropagationData: 16010101000416.0Z
+lastLogonTimestamp: 133985283071473180
+
+# Marielle Chrissy, Users, diploma.org
+dn: CN=Marielle Chrissy,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Marielle Chrissy
+sn: Chrissy
+givenName: Marielle
+distinguishedName: CN=Marielle Chrissy,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220416.0Z
+whenChanged: 20250731222740.0Z
+uSNCreated: 12825
+memberOf: CN=Sales,CN=Users,DC=diploma,DC=org
+uSNChanged: 20523
+name: Marielle Chrissy
+objectGUID:: Wj9beUYciUChTm/jys08wA==
+userAccountControl: 4194816
+badPwdCount: 1
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258025681280
+lastLogoff: 0
+lastLogon: 133985258025045470
+pwdLastSet: 133984730684176692
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCWQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 3
+sAMAccountName: marielle.chrissy
+sAMAccountType: 805306368
+userPrincipalName: Marielle.Chrissy@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+lastLogonTimestamp: 133984744603806111
+
+# Lilia Nikoletta, Users, diploma.org
+dn: CN=Lilia Nikoletta,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Lilia Nikoletta
+sn: Nikoletta
+givenName: Lilia
+distinguishedName: CN=Lilia Nikoletta,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220416.0Z
+whenChanged: 20250731220416.0Z
+uSNCreated: 12831
+memberOf: CN=IT Helpdesk,CN=Users,DC=diploma,DC=org
+uSNChanged: 12835
+name: Lilia Nikoletta
+objectGUID:: UOWiTh7cTEq8ECKGbiws8Q==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258042709718
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730562141705
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCWgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: lilia.nikoletta
+sAMAccountType: 805306368
+userPrincipalName: Lilia.Nikoletta@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Karilynn Priscella, Users, diploma.org
+dn: CN=Karilynn Priscella,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Karilynn Priscella
+sn: Priscella
+givenName: Karilynn
+distinguishedName: CN=Karilynn Priscella,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220416.0Z
+whenChanged: 20250731220416.0Z
+uSNCreated: 12837
+memberOf: CN=Sales,CN=Users,DC=diploma,DC=org
+uSNChanged: 12841
+name: Karilynn Priscella
+objectGUID:: uaBxVY4t0kCiurYl1rCCxA==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258071773655
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730563550612
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCWwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: karilynn.priscella
+sAMAccountType: 805306368
+userPrincipalName: Karilynn.Priscella@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Jerrie Anastasia, Users, diploma.org
+dn: CN=Jerrie Anastasia,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Jerrie Anastasia
+sn: Anastasia
+description: New user generated password: g|y>eDl
+givenName: Jerrie
+distinguishedName: CN=Jerrie Anastasia,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220416.0Z
+whenChanged: 20250731220433.0Z
+uSNCreated: 12843
+memberOf: CN=Accounting,CN=Users,DC=diploma,DC=org
+uSNChanged: 13360
+name: Jerrie Anastasia
+objectGUID:: ADXNax9irkCe8MOPsEarnw==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258087251196
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 0
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCXAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: jerrie.anastasia
+sAMAccountType: 805306368
+userPrincipalName: Jerrie.Anastasia@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Calley Marieann, Users, diploma.org
+dn: CN=Calley Marieann,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Calley Marieann
+sn: Marieann
+givenName: Calley
+distinguishedName: CN=Calley Marieann,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220416.0Z
+whenChanged: 20250731220416.0Z
+uSNCreated: 12849
+memberOf: CN=Executives,CN=Users,DC=diploma,DC=org
+uSNChanged: 12853
+name: Calley Marieann
+objectGUID:: 8RlO3kQB+kO4ve/Z5ASlww==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258103345110
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730566675657
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCXQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: calley.marieann
+sAMAccountType: 805306368
+userPrincipalName: Calley.Marieann@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Florry Matilde, Users, diploma.org
+dn: CN=Florry Matilde,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Florry Matilde
+sn: Matilde
+givenName: Florry
+distinguishedName: CN=Florry Matilde,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220416.0Z
+whenChanged: 20250731220416.0Z
+uSNCreated: 12855
+memberOf: CN=Accounting,CN=Users,DC=diploma,DC=org
+uSNChanged: 12859
+name: Florry Matilde
+objectGUID:: +Y8zgQLe0EWnQ2T+Cy3gdg==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258118951301
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730568710627
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCXgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: florry.matilde
+sAMAccountType: 805306368
+userPrincipalName: Florry.Matilde@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Rita Myrna, Users, diploma.org
+dn: CN=Rita Myrna,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Rita Myrna
+sn: Myrna
+description: Company default password(Reset ASAP)
+givenName: Rita
+distinguishedName: CN=Rita Myrna,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220417.0Z
+whenChanged: 20250731220429.0Z
+uSNCreated: 12861
+memberOf: CN=Marketing,CN=Users,DC=diploma,DC=org
+uSNChanged: 13307
+name: Rita Myrna
+objectGUID:: YtIHlXj/ckKOCbuxjVmtfg==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258134734523
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 0
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCXwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: rita.myrna
+sAMAccountType: 805306368
+userPrincipalName: Rita.Myrna@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Florina Nelia, Users, diploma.org
+dn: CN=Florina Nelia,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Florina Nelia
+sn: Nelia
+givenName: Florina
+distinguishedName: CN=Florina Nelia,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220417.0Z
+whenChanged: 20250731220417.0Z
+uSNCreated: 12867
+memberOf: CN=Senior management,CN=Users,DC=diploma,DC=org
+uSNChanged: 12871
+name: Florina Nelia
+objectGUID:: skaoxDY8DkWnb+oWo2/HNQ==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258153796850
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730575116879
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCYAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: florina.nelia
+sAMAccountType: 805306368
+userPrincipalName: Florina.Nelia@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Lindsey Danica, Users, diploma.org
+dn: CN=Lindsey Danica,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Lindsey Danica
+sn: Danica
+givenName: Lindsey
+distinguishedName: CN=Lindsey Danica,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220417.0Z
+whenChanged: 20250731220432.0Z
+uSNCreated: 12873
+memberOf: CN=Marketing,CN=Users,DC=diploma,DC=org
+uSNChanged: 13343
+name: Lindsey Danica
+objectGUID:: hFCI1/MZ+UmMZNX1JbG7Hw==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258183012332
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730576829051
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCYQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: lindsey.danica
+sAMAccountType: 805306368
+userPrincipalName: Lindsey.Danica@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220432.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Emelda Bette, Users, diploma.org
+dn: CN=Emelda Bette,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Emelda Bette
+sn: Bette
+description: Company default password(Reset ASAP)
+givenName: Emelda
+distinguishedName: CN=Emelda Bette,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220417.0Z
+whenChanged: 20250731220429.0Z
+uSNCreated: 12879
+memberOf: CN=Sales,CN=Users,DC=diploma,DC=org
+uSNChanged: 13313
+name: Emelda Bette
+objectGUID:: Tw6iWIn0gEKtRMK6trrYvA==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258198017639
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 0
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCYgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: emelda.bette
+sAMAccountType: 805306368
+userPrincipalName: Emelda.Bette@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Laurene Roslyn, Users, diploma.org
+dn: CN=Laurene Roslyn,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Laurene Roslyn
+sn: Roslyn
+givenName: Laurene
+distinguishedName: CN=Laurene Roslyn,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220417.0Z
+whenChanged: 20250731220418.0Z
+uSNCreated: 12885
+uSNChanged: 12889
+name: Laurene Roslyn
+objectGUID:: lll0TIasB0C+UNDyynHLxQ==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258213488233
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730579799719
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCYwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: laurene.roslyn
+sAMAccountType: 805306368
+userPrincipalName: Laurene.Roslyn@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Lexine Clary, Users, diploma.org
+dn: CN=Lexine Clary,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Lexine Clary
+sn: Clary
+givenName: Lexine
+distinguishedName: CN=Lexine Clary,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220418.0Z
+whenChanged: 20250731220418.0Z
+uSNCreated: 12891
+memberOf: CN=Sales,CN=Users,DC=diploma,DC=org
+uSNChanged: 12895
+name: Lexine Clary
+objectGUID:: +YSL4zCUCkeZs1If0IgPww==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258228969956
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730581518626
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCZAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: lexine.clary
+sAMAccountType: 805306368
+userPrincipalName: Lexine.Clary@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Appolonia Lazar, Users, diploma.org
+dn: CN=Appolonia Lazar,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Appolonia Lazar
+sn: Lazar
+givenName: Appolonia
+distinguishedName: CN=Appolonia Lazar,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220418.0Z
+whenChanged: 20250731220418.0Z
+uSNCreated: 12897
+memberOf: CN=Project management,CN=Users,DC=diploma,DC=org
+uSNChanged: 12901
+name: Appolonia Lazar
+objectGUID:: FtcMVRCRhE2F0apAvbfiFA==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258244574868
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730583080813
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCZQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: appolonia.lazar
+sAMAccountType: 805306368
+userPrincipalName: Appolonia.Lazar@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Flossie Desiree, Users, diploma.org
+dn: CN=Flossie Desiree,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Flossie Desiree
+sn: Desiree
+givenName: Flossie
+distinguishedName: CN=Flossie Desiree,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220418.0Z
+whenChanged: 20250731220418.0Z
+uSNCreated: 12903
+memberOf: CN=Sales,CN=Users,DC=diploma,DC=org
+uSNChanged: 12907
+name: Flossie Desiree
+objectGUID:: ZA5nsUi680ipxqLCR9gikg==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258259583134
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730584641787
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCZgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: flossie.desiree
+sAMAccountType: 805306368
+userPrincipalName: Flossie.Desiree@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Kalina Madalyn, Users, diploma.org
+dn: CN=Kalina Madalyn,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Kalina Madalyn
+sn: Madalyn
+givenName: Kalina
+distinguishedName: CN=Kalina Madalyn,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220418.0Z
+whenChanged: 20250731220418.0Z
+uSNCreated: 12909
+memberOf: CN=Project management,CN=Users,DC=diploma,DC=org
+uSNChanged: 12913
+name: Kalina Madalyn
+objectGUID:: kL6Ap08o9ECKUmUXESfcrg==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258289267828
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730586676589
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCZwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: kalina.madalyn
+sAMAccountType: 805306368
+userPrincipalName: Kalina.Madalyn@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Chandal Conni, Users, diploma.org
+dn: CN=Chandal Conni,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Chandal Conni
+sn: Conni
+givenName: Chandal
+distinguishedName: CN=Chandal Conni,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220418.0Z
+whenChanged: 20250731220418.0Z
+uSNCreated: 12915
+memberOf: CN=Project management,CN=Users,DC=diploma,DC=org
+uSNChanged: 12919
+name: Chandal Conni
+objectGUID:: VlZZphJuJEaiOq2op60Jow==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258304733542
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730588708421
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCaAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: chandal.conni
+sAMAccountType: 805306368
+userPrincipalName: Chandal.Conni@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Nita Nicolette, Users, diploma.org
+dn: CN=Nita Nicolette,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Nita Nicolette
+sn: Nicolette
+givenName: Nita
+distinguishedName: CN=Nita Nicolette,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220418.0Z
+whenChanged: 20250731220419.0Z
+uSNCreated: 12921
+memberOf: CN=Executives,CN=Users,DC=diploma,DC=org
+uSNChanged: 12925
+name: Nita Nicolette
+objectGUID:: J7Zf0+fdhEKFTxHvY58e1g==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258320826305
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730590272834
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCaQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: nita.nicolette
+sAMAccountType: 805306368
+userPrincipalName: Nita.Nicolette@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Leonerd Rowe, Users, diploma.org
+dn: CN=Leonerd Rowe,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Leonerd Rowe
+sn: Rowe
+description: Company default password(Reset ASAP)
+givenName: Leonerd
+distinguishedName: CN=Leonerd Rowe,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220419.0Z
+whenChanged: 20250731220429.0Z
+uSNCreated: 12927
+memberOf: CN=Accounting,CN=Users,DC=diploma,DC=org
+uSNChanged: 13316
+name: Leonerd Rowe
+objectGUID:: hzbzQ3ruv0KDv8LabJNNnw==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258337546632
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 0
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCagQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: leonerd.rowe
+sAMAccountType: 805306368
+userPrincipalName: Leonerd.Rowe@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Luise Jonie, Users, diploma.org
+dn: CN=Luise Jonie,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Luise Jonie
+sn: Jonie
+givenName: Luise
+distinguishedName: CN=Luise Jonie,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220419.0Z
+whenChanged: 20250731220419.0Z
+uSNCreated: 12933
+memberOf: CN=Accounting,CN=Users,DC=diploma,DC=org
+uSNChanged: 12937
+name: Luise Jonie
+objectGUID:: jpslexPmfE66J8cqMq3cjA==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258353483186
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730593861290
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCawQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: luise.jonie
+sAMAccountType: 805306368
+userPrincipalName: Luise.Jonie@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Stormy Brina, Users, diploma.org
+dn: CN=Stormy Brina,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Stormy Brina
+sn: Brina
+givenName: Stormy
+distinguishedName: CN=Stormy Brina,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220419.0Z
+whenChanged: 20250731220419.0Z
+uSNCreated: 12939
+memberOf: CN=IT Helpdesk,CN=Users,DC=diploma,DC=org
+uSNChanged: 12943
+name: Stormy Brina
+objectGUID:: hBkuCFnzSU6GVdmgh8h/Bg==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258369425120
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730595587353
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCbAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: stormy.brina
+sAMAccountType: 805306368
+userPrincipalName: Stormy.Brina@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Aindrea Pris, Users, diploma.org
+dn: CN=Aindrea Pris,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Aindrea Pris
+sn: Pris
+givenName: Aindrea
+distinguishedName: CN=Aindrea Pris,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220419.0Z
+whenChanged: 20250731220419.0Z
+uSNCreated: 12945
+memberOf: CN=Project management,CN=Users,DC=diploma,DC=org
+uSNChanged: 12949
+name: Aindrea Pris
+objectGUID:: 2QXn2PSm2E2Tb1/63GbLMA==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258398655009
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730597619391
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCbQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: aindrea.pris
+sAMAccountType: 805306368
+userPrincipalName: Aindrea.Pris@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Gerty Devina, Users, diploma.org
+dn: CN=Gerty Devina,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Gerty Devina
+sn: Devina
+givenName: Gerty
+distinguishedName: CN=Gerty Devina,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220419.0Z
+whenChanged: 20250731220419.0Z
+uSNCreated: 12951
+memberOf: CN=Sales,CN=Users,DC=diploma,DC=org
+uSNChanged: 12955
+name: Gerty Devina
+objectGUID:: BaCw8x7E4UO7JkPhmMx9cw==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258415044484
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730599177008
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCbgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: gerty.devina
+sAMAccountType: 805306368
+userPrincipalName: Gerty.Devina@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Caron Betta, Users, diploma.org
+dn: CN=Caron Betta,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Caron Betta
+sn: Betta
+givenName: Caron
+distinguishedName: CN=Caron Betta,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220420.0Z
+whenChanged: 20250731220433.0Z
+uSNCreated: 12957
+uSNChanged: 13358
+name: Caron Betta
+objectGUID:: OFzYHK9UpEKOnWfaABdBBQ==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258431782555
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730601680929
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCbwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: caron.betta
+sAMAccountType: 805306368
+userPrincipalName: Caron.Betta@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Leda Ardella, Users, diploma.org
+dn: CN=Leda Ardella,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Leda Ardella
+sn: Ardella
+givenName: Leda
+distinguishedName: CN=Leda Ardella,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220420.0Z
+whenChanged: 20250731220420.0Z
+uSNCreated: 12963
+memberOf: CN=Marketing,CN=Users,DC=diploma,DC=org
+uSNChanged: 12967
+name: Leda Ardella
+objectGUID:: tyQN0FZOWEmhtyPzhrX16g==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258449418196
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730603396170
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCcAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: leda.ardella
+sAMAccountType: 805306368
+userPrincipalName: Leda.Ardella@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Shina Adan, Users, diploma.org
+dn: CN=Shina Adan,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Shina Adan
+sn: Adan
+givenName: Shina
+distinguishedName: CN=Shina Adan,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220420.0Z
+whenChanged: 20250731220420.0Z
+uSNCreated: 12969
+memberOf: CN=Accounting,CN=Users,DC=diploma,DC=org
+uSNChanged: 12973
+name: Shina Adan
+objectGUID:: EmUUJ97JI06YDdpJYjuRcg==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258465200374
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730605113926
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCcQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: shina.adan
+sAMAccountType: 805306368
+userPrincipalName: Shina.Adan@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Cicely Biddy, Users, diploma.org
+dn: CN=Cicely Biddy,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Cicely Biddy
+sn: Biddy
+description: Company default password(Reset ASAP)
+givenName: Cicely
+distinguishedName: CN=Cicely Biddy,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220420.0Z
+whenChanged: 20250731220429.0Z
+uSNCreated: 12975
+memberOf: CN=Sales,CN=Users,DC=diploma,DC=org
+uSNChanged: 13310
+name: Cicely Biddy
+objectGUID:: RYAz3M69dUSpBA8yt4wTHA==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258495043141
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 0
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCcgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: cicely.biddy
+sAMAccountType: 805306368
+userPrincipalName: Cicely.Biddy@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Margi Davita, Users, diploma.org
+dn: CN=Margi Davita,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Margi Davita
+sn: Davita
+givenName: Margi
+distinguishedName: CN=Margi Davita,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220420.0Z
+whenChanged: 20250731220420.0Z
+uSNCreated: 12981
+memberOf: CN=Accounting,CN=Users,DC=diploma,DC=org
+uSNChanged: 12985
+name: Margi Davita
+objectGUID:: FIvb9idLgUGSTZ1VBdoN4w==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258511141376
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730608556455
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCcwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: margi.davita
+sAMAccountType: 805306368
+userPrincipalName: Margi.Davita@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Fawn Marcelle, Users, diploma.org
+dn: CN=Fawn Marcelle,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Fawn Marcelle
+sn: Marcelle
+givenName: Fawn
+distinguishedName: CN=Fawn Marcelle,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220420.0Z
+whenChanged: 20250801132904.0Z
+uSNCreated: 12987
+memberOf: CN=Marketing,CN=Users,DC=diploma,DC=org
+uSNChanged: 60867
+name: Fawn Marcelle
+objectGUID:: nSuyAM2lk06JwG8bfYdh8A==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258526298451
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133985285442075688
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCdAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: fawn.marcelle
+sAMAccountType: 805306368
+userPrincipalName: Fawn.Marcelle@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220432.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Loralie Cahra, Users, diploma.org
+dn: CN=Loralie Cahra,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Loralie Cahra
+sn: Cahra
+givenName: Loralie
+distinguishedName: CN=Loralie Cahra,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220421.0Z
+whenChanged: 20250731220421.0Z
+uSNCreated: 12993
+memberOf: CN=Sales,CN=Users,DC=diploma,DC=org
+uSNChanged: 12997
+name: Loralie Cahra
+objectGUID:: CkxxkKcpoEyetthE/AsPYg==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258541612202
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730612151378
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCdQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: loralie.cahra
+sAMAccountType: 805306368
+userPrincipalName: Loralie.Cahra@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Goldi Esmeralda, Users, diploma.org
+dn: CN=Goldi Esmeralda,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Goldi Esmeralda
+sn: Esmeralda
+givenName: Goldi
+distinguishedName: CN=Goldi Esmeralda,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220421.0Z
+whenChanged: 20250731220421.0Z
+uSNCreated: 12999
+memberOf: CN=Marketing,CN=Users,DC=diploma,DC=org
+uSNChanged: 13003
+name: Goldi Esmeralda
+objectGUID:: AkFirKH+9E+veRJQvXEPpg==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258557703647
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730613705146
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCdgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: goldi.esmeralda
+sAMAccountType: 805306368
+userPrincipalName: Goldi.Esmeralda@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Gerty Sherry, Users, diploma.org
+dn: CN=Gerty Sherry,CN=Users,DC=diploma,DC=org
+
+# Marrilee Dawna, Users, diploma.org
+dn: CN=Marrilee Dawna,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Marrilee Dawna
+sn: Dawna
+givenName: Marrilee
+distinguishedName: CN=Marrilee Dawna,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220421.0Z
+whenChanged: 20250731220421.0Z
+uSNCreated: 13011
+memberOf: CN=Marketing,CN=Users,DC=diploma,DC=org
+uSNChanged: 13015
+name: Marrilee Dawna
+objectGUID:: V2Qby7ELv0S4VISjk4l2JA==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258574423363
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730617142349
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCeAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: marrilee.dawna
+sAMAccountType: 805306368
+userPrincipalName: Marrilee.Dawna@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Rory Fanni, Users, diploma.org
+dn: CN=Rory Fanni,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Rory Fanni
+sn: Fanni
+givenName: Rory
+distinguishedName: CN=Rory Fanni,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220421.0Z
+whenChanged: 20250731220421.0Z
+uSNCreated: 13017
+memberOf: CN=Office Admin,CN=Users,DC=diploma,DC=org
+uSNChanged: 13021
+name: Rory Fanni
+objectGUID:: B4c/NHkXN0ueUF67Xkm4aQ==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258603013614
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730618707452
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCeQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: rory.fanni
+sAMAccountType: 805306368
+userPrincipalName: Rory.Fanni@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Lavinie Jessalyn, Users, diploma.org
+dn: CN=Lavinie Jessalyn,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Lavinie Jessalyn
+sn: Jessalyn
+givenName: Lavinie
+distinguishedName: CN=Lavinie Jessalyn,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220421.0Z
+whenChanged: 20250731220422.0Z
+uSNCreated: 13023
+memberOf: CN=Accounting,CN=Users,DC=diploma,DC=org
+uSNChanged: 13027
+name: Lavinie Jessalyn
+objectGUID:: UOhrZRRRw0unMtybuD98Qw==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258618637343
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730620267476
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCegQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: lavinie.jessalyn
+sAMAccountType: 805306368
+userPrincipalName: Lavinie.Jessalyn@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Janetta Eveline, Users, diploma.org
+dn: CN=Janetta Eveline,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Janetta Eveline
+sn: Eveline
+givenName: Janetta
+distinguishedName: CN=Janetta Eveline,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220422.0Z
+whenChanged: 20250731220422.0Z
+uSNCreated: 13029
+memberOf: CN=Marketing,CN=Users,DC=diploma,DC=org
+uSNChanged: 13033
+name: Janetta Eveline
+objectGUID:: Igh2m6mDpkes3uaesmqBhA==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258636449717
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730622304144
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCewQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: janetta.eveline
+sAMAccountType: 805306368
+userPrincipalName: Janetta.Eveline@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Rozelle Rheba, Users, diploma.org
+dn: CN=Rozelle Rheba,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Rozelle Rheba
+sn: Rheba
+givenName: Rozelle
+distinguishedName: CN=Rozelle Rheba,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220422.0Z
+whenChanged: 20250731220422.0Z
+uSNCreated: 13035
+memberOf: CN=Senior management,CN=Users,DC=diploma,DC=org
+uSNChanged: 13039
+name: Rozelle Rheba
+objectGUID:: /KdaXTqowk676cHBv6VjaA==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258653482645
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730623864506
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCfAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: rozelle.rheba
+sAMAccountType: 805306368
+userPrincipalName: Rozelle.Rheba@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Alica Lindsey, Users, diploma.org
+dn: CN=Alica Lindsey,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Alica Lindsey
+sn: Lindsey
+givenName: Alica
+distinguishedName: CN=Alica Lindsey,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220422.0Z
+whenChanged: 20250731220422.0Z
+uSNCreated: 13041
+memberOf: CN=IT Helpdesk,CN=Users,DC=diploma,DC=org
+uSNChanged: 13045
+name: Alica Lindsey
+objectGUID:: VWCD5HaMBUqLV80Dhfa2dw==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258668488053
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730625428042
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCfQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: alica.lindsey
+sAMAccountType: 805306368
+userPrincipalName: Alica.Lindsey@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Gilberta Sharity, Users, diploma.org
+dn: CN=Gilberta Sharity,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Gilberta Sharity
+sn: Sharity
+givenName: Gilberta
+distinguishedName: CN=Gilberta Sharity,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220422.0Z
+whenChanged: 20250731220422.0Z
+uSNCreated: 13047
+memberOf: CN=Sales,CN=Users,DC=diploma,DC=org
+uSNChanged: 13051
+name: Gilberta Sharity
+objectGUID:: yo4V2OQxx068yNvNZC6YYQ==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258684420381
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730627154312
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCfgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: gilberta.sharity
+sAMAccountType: 805306368
+userPrincipalName: Gilberta.Sharity@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Meade Danny, Users, diploma.org
+dn: CN=Meade Danny,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Meade Danny
+sn: Danny
+givenName: Meade
+distinguishedName: CN=Meade Danny,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220422.0Z
+whenChanged: 20250731220433.0Z
+uSNCreated: 13053
+memberOf: CN=Senior management,CN=Users,DC=diploma,DC=org
+uSNChanged: 13361
+name: Meade Danny
+objectGUID:: 5tkYQqKR9EWMwMBbyz994g==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258713484611
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730628552709
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCfwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: meade.danny
+sAMAccountType: 805306368
+userPrincipalName: Meade.Danny@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Kerstin Steffie, Users, diploma.org
+dn: CN=Kerstin Steffie,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Kerstin Steffie
+sn: Steffie
+givenName: Kerstin
+distinguishedName: CN=Kerstin Steffie,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220422.0Z
+whenChanged: 20250731220423.0Z
+uSNCreated: 13059
+memberOf: CN=Marketing,CN=Users,DC=diploma,DC=org
+uSNChanged: 13063
+name: Kerstin Steffie
+objectGUID:: KanMqYJP8EqVr/Om2pgv4w==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258730047591
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730630113630
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCgAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: kerstin.steffie
+sAMAccountType: 805306368
+userPrincipalName: Kerstin.Steffie@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Office Admin, Users, diploma.org
+dn: CN=Office Admin,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Office Admin
+member: CN=Rory Fanni,CN=Users,DC=diploma,DC=org
+member: CN=Lorne Klarika,CN=Users,DC=diploma,DC=org
+distinguishedName: CN=Office Admin,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220423.0Z
+whenChanged: 20250731220433.0Z
+uSNCreated: 13065
+uSNChanged: 13356
+name: Office Admin
+objectGUID:: ENR9BHMzkky3zhWxj5aSkA==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCgQQAAA==
+sAMAccountName: Office Admin
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 20250731220432.0Z
+dSCorePropagationData: 20250731220432.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# IT Admins, Users, diploma.org
+dn: CN=IT Admins,CN=Users,DC=diploma,DC=org
+
+# Executives, Users, diploma.org
+dn: CN=Executives,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Executives
+member: CN=http_svc,CN=Users,DC=diploma,DC=org
+member: CN=Nita Nicolette,CN=Users,DC=diploma,DC=org
+member: CN=Calley Marieann,CN=Users,DC=diploma,DC=org
+distinguishedName: CN=Executives,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220423.0Z
+whenChanged: 20250801134131.0Z
+uSNCreated: 13085
+uSNChanged: 60870
+name: Executives
+objectGUID:: K8eD+594HUuL3hz8/jJ4gQ==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCgwQAAA==
+sAMAccountName: Executives
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 20250731220432.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Senior management, Users, diploma.org
+dn: CN=Senior management,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Senior management
+member: CN=Meade Danny,CN=Users,DC=diploma,DC=org
+member: CN=Rozelle Rheba,CN=Users,DC=diploma,DC=org
+member: CN=Florina Nelia,CN=Users,DC=diploma,DC=org
+member: CN=Florencia Lee,CN=Users,DC=diploma,DC=org
+distinguishedName: CN=Senior management,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220424.0Z
+whenChanged: 20250731220433.0Z
+uSNCreated: 13098
+uSNChanged: 13350
+name: Senior management
+objectGUID:: RjJ5GR4vakuNCbYJy4wVog==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGChAQAAA==
+sAMAccountName: Senior management
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Project management, Users, diploma.org
+dn: CN=Project management,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Project management
+member: CN=mssql_svc,CN=Users,DC=diploma,DC=org
+member: CN=Aindrea Pris,CN=Users,DC=diploma,DC=org
+member: CN=Chandal Conni,CN=Users,DC=diploma,DC=org
+member: CN=Kalina Madalyn,CN=Users,DC=diploma,DC=org
+member: CN=Appolonia Lazar,CN=Users,DC=diploma,DC=org
+distinguishedName: CN=Project management,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220424.0Z
+whenChanged: 20250731220433.0Z
+uSNCreated: 13114
+uSNChanged: 13357
+name: Project management
+objectGUID:: idLoSdjx/k2WZaZaD0gkRA==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGChQQAAA==
+sAMAccountName: Project management
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# IT Helpdesk, Users, diploma.org
+dn: CN=IT Helpdesk,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: IT Helpdesk
+member: CN=exchange_svc,CN=Users,DC=diploma,DC=org
+member: CN=http_svc,CN=Users,DC=diploma,DC=org
+member: CN=Alica Lindsey,CN=Users,DC=diploma,DC=org
+member: CN=Stormy Brina,CN=Users,DC=diploma,DC=org
+member: CN=Lilia Nikoletta,CN=Users,DC=diploma,DC=org
+member: CN=Jolie Kiersten,CN=Users,DC=diploma,DC=org
+distinguishedName: CN=IT Helpdesk,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220424.0Z
+whenChanged: 20250731220433.0Z
+uSNCreated: 13130
+uSNChanged: 13353
+name: IT Helpdesk
+objectGUID:: DrgoXyM9WUeV/+P2HtDX7A==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGChgQAAA==
+sAMAccountName: IT Helpdesk
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Marketing, Users, diploma.org
+dn: CN=Marketing,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Marketing
+member: CN=Kerstin Steffie,CN=Users,DC=diploma,DC=org
+member: CN=Janetta Eveline,CN=Users,DC=diploma,DC=org
+member: CN=Marrilee Dawna,CN=Users,DC=diploma,DC=org
+member: CN=Goldi Esmeralda,CN=Users,DC=diploma,DC=org
+member: CN=Fawn Marcelle,CN=Users,DC=diploma,DC=org
+member: CN=Leda Ardella,CN=Users,DC=diploma,DC=org
+member: CN=Lindsey Danica,CN=Users,DC=diploma,DC=org
+member: CN=Rita Myrna,CN=Users,DC=diploma,DC=org
+member: CN=Melva Miquela,CN=Users,DC=diploma,DC=org
+member: CN=Ardine Elisa,CN=Users,DC=diploma,DC=org
+distinguishedName: CN=Marketing,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220425.0Z
+whenChanged: 20250731220433.0Z
+uSNCreated: 13147
+uSNChanged: 13354
+name: Marketing
+objectGUID:: 08sOpQ6xe02RaCyZ5YAmeQ==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGChwQAAA==
+sAMAccountName: Marketing
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 20250731220431.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Sales, Users, diploma.org
+dn: CN=Sales,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Sales
+member: CN=Gerry Ker,CN=Users,DC=diploma,DC=org
+member: CN=Gilberta Sharity,CN=Users,DC=diploma,DC=org
+member: CN=Loralie Cahra,CN=Users,DC=diploma,DC=org
+member: CN=Cicely Biddy,CN=Users,DC=diploma,DC=org
+member: CN=Gerty Devina,CN=Users,DC=diploma,DC=org
+member: CN=Flossie Desiree,CN=Users,DC=diploma,DC=org
+member: CN=Lexine Clary,CN=Users,DC=diploma,DC=org
+member: CN=Emelda Bette,CN=Users,DC=diploma,DC=org
+member: CN=Karilynn Priscella,CN=Users,DC=diploma,DC=org
+member: CN=Marielle Chrissy,CN=Users,DC=diploma,DC=org
+member: CN=Kacie Kerrin,CN=Users,DC=diploma,DC=org
+distinguishedName: CN=Sales,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220426.0Z
+whenChanged: 20250731220433.0Z
+uSNCreated: 13181
+uSNChanged: 13359
+name: Sales
+objectGUID:: bYNrlJ1tc0qnECjjgIyRpw==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCiAQAAA==
+sAMAccountName: Sales
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 20250731220433.0Z
+dSCorePropagationData: 20250731220431.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Accounting, Users, diploma.org
+dn: CN=Accounting,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: group
+cn: Accounting
+member: CN=Lavinie Jessalyn,CN=Users,DC=diploma,DC=org
+member: CN=Margi Davita,CN=Users,DC=diploma,DC=org
+member: CN=Shina Adan,CN=Users,DC=diploma,DC=org
+member: CN=Luise Jonie,CN=Users,DC=diploma,DC=org
+member: CN=Leonerd Rowe,CN=Users,DC=diploma,DC=org
+member: CN=Florry Matilde,CN=Users,DC=diploma,DC=org
+member: CN=Jerrie Anastasia,CN=Users,DC=diploma,DC=org
+member: CN=Guglielma Raquela,CN=Users,DC=diploma,DC=org
+member: CN=Alika Lauraine,CN=Users,DC=diploma,DC=org
+member: CN=Aggi Sherilyn,CN=Users,DC=diploma,DC=org
+distinguishedName: CN=Accounting,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220426.0Z
+whenChanged: 20250731220427.0Z
+uSNCreated: 13215
+uSNChanged: 13246
+name: Accounting
+objectGUID:: dPf7bwn3M0Sa/HQRQU3ceg==
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCiQQAAA==
+sAMAccountName: Accounting
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# mssql_svc, Users, diploma.org
+dn: CN=mssql_svc,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: mssql_svc
+distinguishedName: CN=mssql_svc,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220427.0Z
+whenChanged: 20250731220427.0Z
+uSNCreated: 13250
+memberOf: CN=Project management,CN=Users,DC=diploma,DC=org
+uSNChanged: 13254
+name: mssql_svc
+objectGUID:: BNtuImTZSUiYl0wyQvOS1g==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258746138254
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730678392119
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCigQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: mssql_svc
+sAMAccountType: 805306368
+servicePrincipalName: mssql_svc/mssqlserver.diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# http_svc, Users, diploma.org
+dn: CN=http_svc,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: http_svc
+distinguishedName: CN=http_svc,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220428.0Z
+whenChanged: 20250731231009.0Z
+uSNCreated: 13259
+memberOf: CN=IT Helpdesk,CN=Users,DC=diploma,DC=org
+memberOf: CN=Executives,CN=Users,DC=diploma,DC=org
+uSNChanged: 49880
+name: http_svc
+objectGUID:: SuuKeTNQbk+ZzJ4iHzPS2w==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258761450763
+lastLogoff: 0
+lastLogon: 133985407188822397
+pwdLastSet: 133984730680267973
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCiwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 1
+sAMAccountName: http_svc
+sAMAccountType: 805306368
+servicePrincipalName: http_svc/httpserver.diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+lastLogonTimestamp: 133984770097084017
+
+# exchange_svc, Users, diploma.org
+dn: CN=exchange_svc,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: exchange_svc
+distinguishedName: CN=exchange_svc,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220428.0Z
+whenChanged: 20250731220428.0Z
+uSNCreated: 13268
+memberOf: CN=IT Helpdesk,CN=Users,DC=diploma,DC=org
+uSNChanged: 13272
+name: exchange_svc
+objectGUID:: FzYpXwenrk25NzyTQkOXwA==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258777076800
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730682145732
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCjAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: exchange_svc
+sAMAccountType: 805306368
+servicePrincipalName: exchange_svc/exserver.diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Barrie Eolanda, Users, diploma.org
+dn: CN=Barrie Eolanda,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Barrie Eolanda
+sn: Eolanda
+description: DNS Admin
+givenName: Barrie
+distinguishedName: CN=Barrie Eolanda,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220428.0Z
+whenChanged: 20250801150741.0Z
+uSNCreated: 13287
+memberOf: CN=DnsAdmins,CN=Users,DC=diploma,DC=org
+uSNChanged: 60897
+name: Barrie Eolanda
+objectGUID:: ir+ScBEJcEi/gikjTR6XqA==
+userAccountControl: 512
+badPwdCount: 2
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985374516860135
+lastLogoff: 0
+lastLogon: 0
+logonHours:: ////////////////////////////
+pwdLastSet: 133985344610445967
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCjQQAAA==
+accountExpires: 0
+logonCount: 0
+sAMAccountName: barrie.eolanda
+sAMAccountType: 805306368
+userPrincipalName: Barrie.Eolanda@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 16010101000001.0Z
+lastLogonTimestamp: 133985334889594978
+
+# Gerry Ker, Users, diploma.org
+dn: CN=Gerry Ker,CN=Users,DC=diploma,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Gerry Ker
+sn: Ker
+givenName: Gerry
+distinguishedName: CN=Gerry Ker,CN=Users,DC=diploma,DC=org
+instanceType: 4
+whenCreated: 20250731220431.0Z
+whenChanged: 20250731220431.0Z
+uSNCreated: 13321
+memberOf: CN=Sales,CN=Users,DC=diploma,DC=org
+uSNChanged: 13329
+name: Gerry Ker
+objectGUID:: /5LU5u1YVEq4MlcsNflb0A==
+userAccountControl: 512
+badPwdCount: 57
+codePage: 0
+countryCode: 0
+badPasswordTime: 133985258825826955
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133984730710428913
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAhOPZXXSoqfn4esGCjgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: gerry.ker
+sAMAccountType: 805306368
+userPrincipalName: Gerry.Ker@diploma.org
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=diploma,DC=org
+dSCorePropagationData: 20250731220501.0Z
+dSCorePropagationData: 20250731220431.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# backdoor$, Users, diploma.org
+dn: CN=backdoor$,CN=Users,DC=diploma,DC=org
+
+# search reference
+ref: ldap://ForestDnsZones.diploma.org/DC=ForestDnsZones,DC=diploma,DC=org
+
+# search reference
+ref: ldap://DomainDnsZones.diploma.org/DC=DomainDnsZones,DC=diploma,DC=org
+
+# search reference
+ref: ldap://diploma.org/CN=Configuration,DC=diploma,DC=org
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 106
+# numEntries: 102
+# numReferences: 3
